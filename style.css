@@ -112,6 +112,23 @@ body {
     padding: 20px 20px 50px;
 }
 
+/* ------------------------------
+   안내 이미지
+------------------------------ */
+
+.image-area {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-area img {
+    max-width: 200px;
+    height: auto;
+    display: inline-block;
+}
 
 /* ------------------------------
    입력창
@@ -147,7 +164,7 @@ body {
 ------------------------------ */
 
 .notice {
-    margin-top: 75px;
+    margin-top: 30px;
     margin-bottom: 25px;
 
     text-align: center;
@@ -174,7 +191,8 @@ body {
 ------------------------------ */
 
 .font-list {
-    width: 100%;
+    width: fit-content;
+    margin: 0 auto;
 }
 
 
