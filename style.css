@@ -122,16 +122,20 @@ body {
     margin-bottom: 25px;
 
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
     justify-content: center;
     align-items: center;
 
-    gap: 10px;
+    gap: 8px;
 }
 
 .image-area img {
-    flex: 1;
+    flex: 1 1 0;
     min-width: 0;
-    max-width: 250px;
+    max-width: none;
+    width: 0;
     height: auto;
     display: block;
 }
