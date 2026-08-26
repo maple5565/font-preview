@@ -353,7 +353,7 @@ body {
         padding: 8px 16px;
     }
         /* 8번 폰트만 크게 */
-    .preview-text.font8 {
+    .preview-text.8번 {
         font-size: 30px !important;
     }
 }
